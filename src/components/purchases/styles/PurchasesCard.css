@@ -1,0 +1,62 @@
+.purchasesCard {
+    border: 1px solid var(--gray);
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    /* padding: 15px; */
+    font-size: .7rem;
+    /* font-size: 1rem; */
+    text-align: center;
+    gap: 15px;
+    margin: 10px auto;
+}
+
+.purchasesCard__containerImg {
+    /* padding: 20px; */
+    height: 65px;
+    /* height: 90px; */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    max-width: 750px;
+    gap: 5px;
+    /* gap: 30px; */
+}
+
+.purchasesCard__img {
+    width: 100%;
+    height: 100%;
+}
+
+.purchasesCard__img img {
+    display: block;
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+
+.purchasesCard__containerInfo {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    /* gap: 20px; */
+    margin: auto 20px;
+}
+
+.purchasesCard__containerQuantity {
+    padding: 0px 15px;
+    /* padding: 0px 20px; */
+    border: 1px solid var(--light-gray);
+    margin: 0 auto;
+}
+
+.purchasesCard__quantity {
+    text-align: center;
+}

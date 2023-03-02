@@ -1,0 +1,26 @@
+.purchases {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: auto;
+    max-width: 1000px;
+    gap: 40px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: var(--ultra-ligth-gray);
+}
+
+.purchases__container {
+    padding: 15px 0;
+}
+
+.purchases__containerText {
+    text-align: center;
+}
+
+.purchases__title {
+    /* font-size: 25px; */
+}
+
+/* .purchases__card {
+
+} */
